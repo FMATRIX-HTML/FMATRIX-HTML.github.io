@@ -1,0 +1,75 @@
+header {
+    color: #6697b8;
+    background-color: #303538;
+    margin-top: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    text-shadow: -2px 1px 1px black;
+    font-family: 'Anton', sans-serif;
+}
+body {
+    color: black;
+    background-image: url(https://www.beautycolorcode.com/6697b8-2880x1800.png);
+    margin: auto;
+    font-family: 'Anton', sans-serif;
+}
+footer {
+  color: #6697b8;
+    background-color: #303538; 
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-shadow: -2px 1px 1px black;
+    font-family: 'Dancing Script', cursive;
+}
+#menu ul {
+    margin: 0;
+    background-color: #303538;
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+
+    color: #6697b8;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    color: #a8b9c3;
+}
+.btn:focus, .btn::-moz-focus-inner{
+    outline:none;
+    border:none;
+  }
+  .btn{
+    font-family: 'Dancing Script', cursive;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+  }
+  .btn-purple{
+    background:#303538;
+    color:black;
+    box-shadow:0 5px 0 #303538;
+  }
+  .btn-purple:hover{
+    background:#303538;
+    box-shadow:0 5px 0 #303538;
+  }
+ .btn-purple:active {
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+  .box {
+    border: 8px solid black;
+    padding: 32px;
+}
